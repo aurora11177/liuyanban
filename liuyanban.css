@@ -1,0 +1,143 @@
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(90deg,#e0c3fc 0%,#8ec5fc 100%);
+	height:100vh;
+}
+
+#div1{
+	background: #d7e0ff;
+	width:604px;
+	height:585px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 16px 0px rgba(17, 17, 26, 0.1) ;
+	padding-top:41px;
+	
+}
+
+#div2{
+	width:500px;
+	margin:0 auto;
+}
+
+#div1 h1{
+	color:#657be1;
+	font-size:50px;
+	margin-bottom: 42px
+}
+
+.div1 input{
+	font-size:16px;
+	font-weight:400;
+	border:none;
+	width:485px;
+	height:48px;
+	border-radius:5px;
+	padding-left:15px
+}
+
+.div1 textarea:focus,.div1 textarea:hover,.div1 input:hover,.div1 input:focus{
+	outline:none;
+	box-shadow: 0px 0px 15px 3px rgba(17, 17, 26, 0.1);
+}
+
+#textarea1{
+	margin-top:20px;
+	font-size:16px;
+	font-weight: bold;
+	border:none;
+	width:485px;
+	height:102px;
+	border-radius:5px;
+	padding-left:15px;
+	padding-top:16px
+}
+
+.div2{
+	display: flex;
+	justify-content:flex-end;
+	width:500px;
+	margin-top:15px;
+}
+
+.div2 input{
+	width:100px;
+	height:35px;
+	color:#fff;
+	background-image: linear-gradient(to right,#ddc6fe,#95c9fb);
+	border-radius:20px;
+	border:none;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.div2 input:hover{
+	font-weight: bold;
+}
+
+/*留言板样式结束留言内容开始*/
+
+.div3{
+	width:500px;
+	height:103px;
+	background: linear-gradient(to left,#e0c5fa,#9cc2ef);
+	margin-top:34px;
+	border-radius:5px;
+	color:#fff;
+	padding-top:13px;
+}
+
+.div3 img{
+	width:60px;
+	border-radius: 50%;
+	margin-left:8px;
+	margin-top:-33px;
+	border: 5px #fff solid;
+	float:left;
+}
+
+.div3 h4{
+	float:left;
+	display: inline-block;
+	padding-left:10px
+}
+
+.div4{
+	display: flex;
+	width:100%;
+}
+
+.div5{
+	display: flex;
+	align-items:flex-start;
+	width:50%
+}
+
+.div6{
+	display: flex;
+	justify-content:flex-end;
+	width: 50%;
+	padding-right:10px
+}
+
+.span1{
+	font-size:16px;
+}
+
+.div7{
+	padding-left:20px;
+	padding-top:15px;
+}
+
+.div7 span{
+	font-size:17px;
+	
+}
